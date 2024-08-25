@@ -8,7 +8,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/netflix-header.jpg);
     background-size: cover;
 }
-
+.btn-danger{
+    --bs-btn-bg:#C11119;
+    --bs-btn-border-color:#C11119;
+}
 .nav-logo img {
     width: 100%;
     height: 40px;
@@ -42,6 +45,7 @@
     font-size: 40px;
     font-weight: 900;
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .header-text p{
@@ -56,9 +60,9 @@
 ::placeholder {
     color: white;
 }
-.form{
+/* .form{
     margin-left: 100px;
-}
+} */
 
 .section-1{
     border-top: 10px solid #232323;
